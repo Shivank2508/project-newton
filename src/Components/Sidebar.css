@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+}
+.sidebar-container{
+    position: fixed;
+    top: 41px;
+    left: 0;
+    background-color: white;
+    height: 700px;
+    float: left;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+   
+}
+.sidebar-feed{
+    display: flex;
+    flex-direction: column;
+     padding: 0 50px;
+}
+
+.sidebar-feed >ul>li{
+    margin-bottom: 10px;
+    font-size:large;
+    font-weight: 400;
+}
